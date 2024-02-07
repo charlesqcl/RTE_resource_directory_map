@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--This is how you comment for html-->
+<html lang="en" dir="ltr">
+  
+  <head>
+  <meta charset="utf-8">
+  <title>Resource Directory Map</title>
+    <!--This where you put all your dependencies-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://unpkg.com/threebox-plugin/dist/threebox.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/threebox-plugin/dist/threebox.css" rel="stylesheet" />
+
+
+    <style>
+      #menu {
+      background: #fff;
+      position: absolute;
+      z-index: 1;
+      top: 10px;
+      right: 10px;
+      border-radius: 3px;
+      width: 200px;
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      font-family: 'Open Sans', sans-serif;
+      }
+       
+      #menu a {
+      font-size: 13px;
+      color: #404040;
+      display: block;
+      margin: 0;
+      padding: 0;
+      padding: 10px;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      text-align: center;
+      }
+       
+      #menu a:last-child {
+      border: none;
+      }
+       
+      #menu a:hover {
+      background-color: #f8f8f8;
+      color: #404040;
+      }
+       
+      #menu a.active {
+      background-color: #3e3e3e;
+      color: #ffffff;
+      }
+       
+      #menu a.active:hover {
+      background: #000000;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div id="map"></div>
+    <nav id="menu"></nav>
+
+    <script type="module" src="static/map.js"></script>
+
+  </body>
+  
+</html>

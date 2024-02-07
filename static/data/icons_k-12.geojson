@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.60765, 42.207143]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Holyoke, MA"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.14949, 26.011201]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Hollywood, FL"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-61.818964, 17.643368]
+      },
+      "type": "Feature",
+      "properties": {
+        "name": "Barbuda, Codrington"
+      }
+    }
+  ]
+}
